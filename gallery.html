@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - K.O.B. Choceň</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="news.html">Novinky</a></li>
+                <li><a href="events.html">Kalendář</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Kontakty</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Galerie</h1>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300?text=Foto1" alt="Foto 1" onclick="openModal(this.src)">
+            <img src="https://via.placeholder.com/300?text=Foto2" alt="Foto 2" onclick="openModal(this.src)">
+            <img src="https://via.placeholder.com/300?text=Foto3" alt="Foto 3" onclick="openModal(this.src)">
+            <!-- Přidej více obrázků, nahraď placeholder URL svými -->
+        </div>
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 K.O.B. Choceň</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
