@@ -9,31 +9,90 @@
 <body>
     <header>
         <nav>
+            <div class="logo">K.O.B. Choceň</div>
             <ul>
                 <li><a href="index.html">Domů</a></li>
                 <li><a href="news.html">Novinky</a></li>
+                <li><a href="treninky.html">Tréninky</a></li>
                 <li><a href="events.html">Kalendář</a></li>
                 <li><a href="gallery.html">Galerie</a></li>
                 <li><a href="contact.html">Kontakty</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Galerie</h1>
-        <div class="gallery">
-            <img src="https://via.placeholder.com/300?text=Foto1" alt="Foto 1" onclick="openModal(this.src)">
-            <img src="https://via.placeholder.com/300?text=Foto2" alt="Foto 2" onclick="openModal(this.src)">
-            <img src="https://via.placeholder.com/300?text=Foto3" alt="Foto 3" onclick="openModal(this.src)">
-            <!-- Přidej více obrázků, nahraď placeholder URL svými -->
+
+    <!-- Hero sekce -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-overlay">
+            <h1>Galerie K.O.B. Choceň</h1>
+            <p>Fotky z tréninků, závodů a klubových akcí</p>
         </div>
-        <div id="modal" class="modal">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <img class="modal-content" id="modalImg">
+    </section>
+
+    <main class="page-content">
+        <h2 class="section-title">Fotogalerie</h2>
+
+        <div class="gallery-grid">
+            
+            <!-- === PŘÍKLADY FOTEK - stačí kopírovat tento blok === -->
+            
+            <img src="images/galerie/trenink-jaro-2026.jpg" 
+                 alt="Jarní trénink v lese" 
+                 onclick="openModal(this.src)">
+
+            <img src="images/galerie/mcr-horsky-ob-2026.jpg" 
+                 alt="MČR v horském OB 2026" 
+                 onclick="openModal(this.src)">
+
+            <img src="images/galerie/rodinne-stafety-2025.jpg" 
+                 alt="Rodinné štafety 2025" 
+                 onclick="openModal(this.src)">
+
+            <img src="images/galerie/nočni-zavod.jpg" 
+                 alt="Noční závod" 
+                 onclick="openModal(this.src)">
+
+            <img src="images/galerie/detsky-zavod.jpg" 
+                 alt="Dětský závod" 
+                 onclick="openModal(this.src)">
+
+            <img src="images/galerie/podzimni-trenink.jpg" 
+                 alt="Podzimní trénink" 
+                 onclick="openModal(this.src)">
+
+            <!-- Přidávání dalších fotek: -->
+            <!-- 
+            <img src="images/galerie/nazev-fotky.jpg" 
+                 alt="Popis fotky" 
+                 onclick="openModal(this.src)">
+            -->
+
         </div>
     </main>
+
+    <!-- Modal pro zvětšení fotky -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
     <footer>
-        <p>&copy; 2026 K.O.B. Choceň</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p><strong>K.O.B. Choceň, z.s.</strong></p>
+                <p>Vostelčická 256, 565 01 Choceň</p>
+                <p><a href="mailto:info@kobchocen.cz">info@kobchocen.cz</a></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/kobchocen/" target="_blank" class="social-link">Instagram</a>
+                <a href="https://www.facebook.com/kobchocen" target="_blank" class="social-link">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 K.O.B. Choceň, z.s. • Všechna práva vyhrazena</p>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
