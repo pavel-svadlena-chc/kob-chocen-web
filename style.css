@@ -260,6 +260,29 @@ nav a:hover {
     line-height: 1.7;
 }
 
+/* ==================== NOVINKY HERO ==================== */
+.news-hero {
+    height: 380px;
+    background: linear-gradient(rgba(0, 48, 135, 0.75), rgba(0, 48, 135, 0.75)),
+                url('images/news-hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.news-hero-overlay h1 {
+    font-size: 2.8rem;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+}
+
+.news-hero-overlay p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
 /* ==================== FOOTER ==================== */
 footer {
     background: #003087;
