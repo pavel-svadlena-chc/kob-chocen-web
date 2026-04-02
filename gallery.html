@@ -21,11 +21,11 @@
         </nav>
     </header>
 
-    <!-- Hero sekce -->
+    <!-- Hero -->
     <section class="gallery-hero">
         <div class="gallery-hero-overlay">
             <h1>Galerie K.O.B. Choceň</h1>
-            <p>Fotky z tréninků, závodů a klubových akcí</p>
+            <p>Fotky z tréninků, závodů a soustředění</p>
         </div>
     </section>
 
@@ -33,39 +33,34 @@
         <h2 class="section-title">Fotogalerie</h2>
 
         <div class="gallery-grid">
-            
-            <!-- === PŘÍKLADY FOTEK - stačí kopírovat tento blok === -->
-            
-            <img src="images/galerie/trenink-jaro-2026.jpg" 
-                 alt="Jarní trénink v lese" 
-                 onclick="openModal(this.src)">
 
-            <img src="images/galerie/mcr-horsky-ob-2026.jpg" 
-                 alt="MČR v horském OB 2026" 
-                 onclick="openModal(this.src)">
+            <!-- Příklad fotky s linkem na album -->
+            <div class="gallery-item">
+                <img src="images/galerie/tc-plasnice-25.jpg" 
+                     alt="TC podzim 2025 Plasnice" 
+                     onclick="openModal(this.src)">
+                <div class="gallery-item-info">
+                    <h3>TC podzim 2025 Plasnice</h3>
+                    <a href="https://photos.app.goo.gl/rPTkthpnGACwcGM86" 
+                       target="_blank" 
+                       class="album-link">Otevřít album v Google Fotkách →</a>
+                </div>
+            </div>
 
-            <img src="images/galerie/rodinne-stafety-2025.jpg" 
-                 alt="Rodinné štafety 2025" 
-                 onclick="openModal(this.src)">
+            <!-- Další příklad -->
+            <div class="gallery-item">
+                <img src="images/galerie/mcr-vysice-2025.jpg" 
+                     alt="MČR štafety Výsice 2025" 
+                     onclick="openModal(this.src)">
+                <div class="gallery-item-info">
+                    <h3>MČR štafety Výsice 2025</h3>
+                    <a href="https://photos.app.goo.gl/DALSI_LINK" 
+                       target="_blank" 
+                       class="album-link">Otevřít album v Google Fotkách →</a>
+                </div>
+            </div>
 
-            <img src="images/galerie/nočni-zavod.jpg" 
-                 alt="Noční závod" 
-                 onclick="openModal(this.src)">
-
-            <img src="images/galerie/detsky-zavod.jpg" 
-                 alt="Dětský závod" 
-                 onclick="openModal(this.src)">
-
-            <img src="images/galerie/podzimni-trenink.jpg" 
-                 alt="Podzimní trénink" 
-                 onclick="openModal(this.src)">
-
-            <!-- Přidávání dalších fotek: -->
-            <!-- 
-            <img src="images/galerie/nazev-fotky.jpg" 
-                 alt="Popis fotky" 
-                 onclick="openModal(this.src)">
-            -->
+            <!-- Sem přidávej další fotky stejným způsobem -->
 
         </div>
     </main>
