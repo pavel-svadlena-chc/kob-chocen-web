@@ -109,20 +109,7 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
-/* ==================== COMMON STYLES ==================== */
-.infobox {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-.infobox h2 {
-    color: var(--primary);
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 2rem;
-}
-
+/* ==================== COMMON ==================== */
 .page-content {
     max-width: 1100px;
     margin: 40px auto;
@@ -133,6 +120,13 @@ nav a:hover {
     text-align: center;
     color: var(--primary);
     margin-bottom: 40px;
+}
+
+.intro-text {
+    font-size: 1.15rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .btn-small {
@@ -150,6 +144,19 @@ nav a:hover {
 }
 
 /* ==================== SPONZOŘI A GRANTY ==================== */
+.infobox {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.infobox h2 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
 .sponsors-grid {
     display: flex;
     flex-wrap: wrap;
@@ -459,7 +466,7 @@ footer {
     margin-right: auto;
 }
 
-/* ==================== GALERIE (nová verze s album linky) ==================== */
+/* ==================== GALERIE ==================== */
 .gallery-hero {
     height: 380px;
     background: linear-gradient(rgba(0, 48, 135, 0.75), rgba(0, 48, 135, 0.75)),
