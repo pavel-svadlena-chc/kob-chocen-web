@@ -9,23 +9,91 @@
 <body>
     <header>
         <nav>
+            <div class="logo">K.O.B. Choceň</div>
             <ul>
                 <li><a href="index.html">Domů</a></li>
                 <li><a href="news.html">Novinky</a></li>
+                <li><a href="treninky.html">Tréninky</a></li>
                 <li><a href="events.html">Kalendář</a></li>
                 <li><a href="gallery.html">Galerie</a></li>
                 <li><a href="contact.html">Kontakty</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>K.O.B. Choceň</h1>
+            <p>Klub orientačního běhu s tradicí • Přidej se k nám do lesa</p>
+            <a href="treninky.html" class="btn">Přijď na trénink</a>
+        </div>
+    </section>
+
     <main>
-        <h1>Vítejte v K.O.B. Choceň</h1>
-        <p>Klub orientačního běhu v Choceň. Jsme skupina nadšenců, kteří milují přírodu, běh a výzvy. Založeno v roce [doplň rok]. Přidejte se k nám na tréninky nebo závody!</p>
-        <img src="https://via.placeholder.com/800x400?text=Orientační+běh" alt="Orientační běh" class="hero-image">
+        <!-- Sociální sítě -->
+        <section class="social-bar">
+            <a href="https://www.instagram.com/kobchocen/" target="_blank" class="social-btn">Instagram</a>
+            <a href="https://www.facebook.com/kobchocen" target="_blank" class="social-btn">Facebook</a>
+        </section>
+
+        <!-- Infobox sponzoři -->
+        <section class="infobox sponsors">
+            <h2>Naši sponzoři</h2>
+            <div class="sponsors-grid">
+                <!-- Nahraď src svými logy a href odkazy -->
+                <a href="https://www.example.cz" target="_blank"><img src="images/sponzori/logo1.png" alt="Sponzor 1"></a>
+                <a href="https://www.example.cz" target="_blank"><img src="images/sponzori/logo2.png" alt="Sponzor 2"></a>
+                <a href="https://www.example.cz" target="_blank"><img src="images/sponzori/logo3.png" alt="Sponzor 3"></a>
+            </div>
+        </section>
+
+        <!-- Granty a dotace -->
+        <section class="infobox grants">
+            <h2>Podpora klubu</h2>
+            <div class="grants-grid">
+                <div class="grant-item">
+                    <h3>Dotace Města Choceň</h3>
+                    <p>Podpora činnosti klubu a organizace závodů v roce 2026.</p>
+                </div>
+                <div class="grant-item">
+                    <h3>Grant České unie sportu</h3>
+                    <p>Finanční podpora na rozvoj mládeže a tréninkové zázemí.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tradiční závody -->
+        <section class="infobox races">
+            <h2>Naše tradiční závody</h2>
+            <div class="races-grid">
+                <div class="race-item">
+                    <h3>Východočeský pohár v OB</h3>
+                    <p>Každoroční závod série Východočeského poháru.</p>
+                    <a href="#" class="btn-small">Informace a přihláška</a>
+                </div>
+                <div class="race-item">
+                    <h3>Malá cena Velké Verandy</h3>
+                    <p>Tradiční závod pro všechny kategorie v okolí Chocně.</p>
+                    <a href="#" class="btn-small">Informace a přihláška</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekce novinek na hlavní stránce (3 poslední) -->
+        <section class="home-news">
+            <h2>Aktuální novinky</h2>
+            <div class="news-grid" id="home-news-grid">
+                <!-- JavaScript sem automaticky vloží 3 novinky -->
+            </div>
+            <a href="news.html" class="btn">Všechny novinky →</a>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 K.O.B. Choceň</p>
+        <p>&copy; 2026 K.O.B. Choceň, z.s. • Vostelčická 256, 565 01 Choceň</p>
+        <p>info@kobchocen.cz</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
