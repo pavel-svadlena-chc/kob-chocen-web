@@ -188,6 +188,34 @@ nav a:hover {
     text-align: center;
 }
 
+/* === GRANTY A DOTACE - MOBILNÍ OPTIMALIZACE === */
+.pk-logo, .nsa-logo {
+    max-width: 100%;           /* důležité omezení */
+    height: auto;
+    max-height: 85px;          /* hlavní omezení výšky */
+    width: auto;
+    margin-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Speciální úprava pro Pardubický kraj (logo je trochu širší) */
+.pk-grant .pk-logo {
+    max-height: 78px;
+}
+
+/* Extra ochrana pro velmi úzké telefony */
+@media (max-width: 480px) {
+    .pk-logo, .nsa-logo {
+        max-height: 65px;      /* ještě menší na malých mobilech */
+    }
+    
+    .grant-item {
+        padding: 22px 18px;
+    }
+}
+
 /* ==================== NOVINKY ==================== */
 .home-news {
     max-width: 1200px;
