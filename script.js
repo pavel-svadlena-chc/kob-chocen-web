@@ -15,22 +15,22 @@ function setRandomHero() {
 // Ukázkové novinky pro hlavní stránku (nahraď reálnými daty)
 const sampleNews = [
     {
+        date: "28. 3. 2026",
+        title: "Sezóna 2026 zahájena",
+        image: "images/novinky/n260328.jpg",
+        link: "news.html#n3"
+    },
+    {
         date: "19. 10. 2025",
         title: "Rodinné štafety 2025",
-        image: "images/n251019.jpg",
+        image: "images/novinky/n251019.jpg",
         link: "news.html#n1"
     },
     {
         date: "5. 10. 2025",
         title: "MČR štafet a klubů 2025",
-        image: "images/n251005.jpg",
+        image: "images/novinky/n251005.jpg",
         link: "news.html#n2"
-    },
-    {
-        date: "28. 9. 2025",
-        title: "Klárka Janková šestá na MVčO",
-        image: "images/n250928.jpg",
-        link: "news.html#n3"
     }
 ];
 
