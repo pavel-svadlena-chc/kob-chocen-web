@@ -15,22 +15,22 @@ function setRandomHero() {
 // Ukázkové novinky pro hlavní stránku (nahraď reálnými daty)
 const sampleNews = [
     {
-        date: "28. 3. 2026",
-        title: "Sezóna 2026 zahájena",
-        image: "images/novinky/n260328.jpg",
-        link: "news.html#n3"
-    },
-    {
-        date: "19. 10. 2025",
-        title: "Rodinné štafety 2025",
-        image: "images/novinky/n251019.jpg",
+        date: "13. 4. 2026",
+        title: "MČR KO sprint 2026",
+        image: "images/galerie/mcr-ko-26.jpg",
         link: "news.html#n1"
     },
     {
-        date: "5. 10. 2025",
-        title: "MČR štafet a klubů 2025",
-        image: "images/novinky/n251005.jpg",
+        date: "13. 4. 2026",
+        title: "3. kolo VčP 2026",
+        image: "images/novinky/n260413.jpg",
         link: "news.html#n2"
+    },
+    {
+        date: "9. 4. 2026",
+        title: "TC Velikonoce 2026",
+        image: "images/galerie/tc-vel-26.jpg",
+        link: "news.html#n3"
     }
 ];
 
