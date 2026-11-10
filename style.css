@@ -200,6 +200,12 @@ nav a:hover {
     margin-right: auto;
 }
 
+/* Rozbalovací text dotace NSA */
+.nsa-more { margin-top: 10px; }
+.nsa-more summary { cursor: pointer; color: #003087; font-weight: bold; font-size: 0.9em; list-style: none; }
+.nsa-more summary::-webkit-details-marker { display: none; }
+.nsa-more[open] summary { display: none; }
+
 /* Speciální úprava pro Pardubický kraj (logo je trochu širší) */
 .pk-grant .pk-logo {
     max-height: 78px;
